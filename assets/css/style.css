@@ -86,7 +86,7 @@ main {
     background-color: rgb(189, 122, 199);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 58px;
+    margin-top: 47px;
 }
 
 /* Footer */
@@ -128,7 +128,7 @@ footer {
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 87px;
+        margin-top: 79px;
     }
 
     /* Large devices (laptops and desktops, 992px and up) */
