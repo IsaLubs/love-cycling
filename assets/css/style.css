@@ -86,13 +86,23 @@ main {
     background-color: rgb(189, 122, 199);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 55px;
 }
 
 /* Footer */
-footer {
-    background-color: rgb(201, 144, 38);
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #c39111;
+}
 
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -128,7 +138,7 @@ footer {
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 79px;
+        margin-top: 85px;
     }
 
     /* Large devices (laptops and desktops, 992px and up) */
