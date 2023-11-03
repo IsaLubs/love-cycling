@@ -17,6 +17,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
 /* Header */
 header {
     background-color: #ca1d1d;
