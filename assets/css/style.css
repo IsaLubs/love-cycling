@@ -85,7 +85,38 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 55px;
+    margin-top: 47px;
+}
+
+/* Hero section */
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.jpg") no-repeat center center/cover;
+}
+
+#bikers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.bikers {
+    filter: blur(3px);
+}
+
+.bikers-background {
+    width: 60%;
+    height: 60%;
+    background-color: #e4bfbf;
+    color: #e4bfbf;
+}
+
+.hero-gallery {
+    height: 100vh;
 }
 
 /* Footer */
@@ -137,11 +168,14 @@ main {
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 85px;
+        margin-top: 79px;
     }
 
-    /* Large devices (laptops and desktops, 992px and up) */
-    @media screen and (min-width: 992px) {
-        #menu a:hover {
-            border-bottom: 1px solid #3a3a3a;
-        }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+}
