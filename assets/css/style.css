@@ -31,7 +31,7 @@ header {
     background-color: #e4bfbf;
     padding: 0 1rem;
     position: fixed;
-    z-index: 99;
+    z-index: 100;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
@@ -103,7 +103,7 @@ main {
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(208, 118, 203, 0.7);
+    background-color: rgba(135, 87, 149, 0.7);
     font-size: 150%;
     position: absolute;
     bottom: 30px;
@@ -197,6 +197,7 @@ main {
     #cover-text {
         width: 350px;
         right: 50px;
+
     }
 }
 
