@@ -170,8 +170,8 @@ main {
 
 #circle-cover-bg {
     background: url('../images/reasons-image.jpg') no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
+    height: 90%;
+    width: 90%;
     margin-bottom: 20px;
     /* Makes the square image into a circle */
     border-radius: 50%;
