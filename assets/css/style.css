@@ -103,7 +103,7 @@ main {
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(135, 87, 149, 0.7);
+    background-color: rgba(111, 64, 125, 0.743);
     font-size: 150%;
     position: absolute;
     bottom: 30px;
@@ -139,6 +139,33 @@ main {
 
 .hero-gallery {
     height: 100vh;
+}
+
+/* Reasons section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-physical>div,
+#benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
 
 /* Footer */
