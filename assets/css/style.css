@@ -94,6 +94,7 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.jpg") no-repeat center center/cover;
+    position: relative;
 }
 
 #bikers {
@@ -126,7 +127,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: #c39111;
+    background-color: #e4bfbf;
 }
 
 #social-networks i {
