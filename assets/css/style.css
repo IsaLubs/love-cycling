@@ -31,7 +31,7 @@ header {
     background-color: #e4bfbf;
     padding: 0 1rem;
     position: fixed;
-    z-index: 100;
+    z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
@@ -43,8 +43,6 @@ header a {
     text-decoration: none;
     color: inherit;
 }
-
-
 
 #menu {
     font-size: 110%;
@@ -93,7 +91,6 @@ main {
 }
 
 /* Hero section */
-
 #hero {
     height: 600px;
     width: 100%;
@@ -105,7 +102,7 @@ main {
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(111, 64, 125, 0.743);
-    font-size: 150%;
+    font-size: 130%;
     position: absolute;
     bottom: 30px;
     width: 80%;
@@ -212,6 +209,7 @@ main {
     color: #fafafa;
 }
 
+
 /* Gallery page */
 #photos img {
     width: 100%;
@@ -246,13 +244,6 @@ main {
     }
 }
 
-/* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
-    #photos {
-        column-count: 2;
-        column-gap: 0;
-    }
-}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -327,8 +318,6 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
-
-
 
 }
 
