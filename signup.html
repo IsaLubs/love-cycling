@@ -40,7 +40,79 @@
 
     <!-- Main content -->
     <main>
-      <section id="bikers"></section>
+      <section id="signup">
+        <form
+          id="signup-form"
+          method="POST"
+          action="https://formdump.codeinstitute.net"
+        >
+          <h2>
+            <i class="fa-solid fa-person-biking"></i> Let's proceed with your
+            registration!
+          </h2>
+          <label for="first_name">First Name</label>
+          <input
+            type="text"
+            name="first_name"
+            id="first_name"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="last_name">Last Name</label>
+          <input
+            type="text"
+            name="last_name"
+            id="last_name"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="email_address">Email Address</label>
+          <input
+            type="email"
+            name="email_address"
+            id="email_address"
+            class="text-input"
+            required
+          />
+          <br />
+          <div class="radio-buttons">
+            <div>
+              <label for="road">Road</label>
+              <input
+                type="radio"
+                name="cycling_preference"
+                id="road"
+                value="road"
+                required
+                checked
+              />
+            </div>
+            <div>
+              <label for="trail">Routes</label>
+              <input
+                type="radio"
+                name="cycling_preference"
+                id="trail"
+                value="trail"
+                required
+              />
+            </div>
+            <div>
+              <label for="both">Both</label>
+              <input
+                type="radio"
+                name="cycling_preference"
+                id="both"
+                value="both"
+                required
+              />
+            </div>
+          </div>
+          <button type="submit" class="join-button">Let's Cycle!</button>
+        </form>
+      </section>
     </main>
 
     <!-- Footer -->
