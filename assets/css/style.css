@@ -231,14 +231,14 @@ main {
 
 
 #signup-form {
-    color: #e4bfbf;
+    color: #fafafa;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
 
 
 #signup-form>h2 {
-    color: #fafafa;
+    color: #e4bfbf;
     margin-bottom: 20px;
 }
 
