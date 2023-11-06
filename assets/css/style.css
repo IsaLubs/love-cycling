@@ -224,32 +224,32 @@ main {
 #signup {
     background-image: url("../images/wins-image.jpg");
     background-size: cover;
-    background-position: 100%;
+    background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
 
 
 #signup-form {
-    color: #ffffff;
+    color: #e4bfbf;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
 
 
 #signup-form>h2 {
-    color: #e4bfbf;
+    color: #fafafa;
     margin-bottom: 20px;
 }
 
 
 .text-input {
     background: transparent;
-    color: #e4bfbf;
+    color: #fafafa;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid #e4bfbf;
+    border: 1px solid #fafafa;
     border-radius: 2px;
     padding: 0 5px;
 }
@@ -267,8 +267,8 @@ main {
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: #712b88;
-    color: #fafafa;
+    background-color: #752b90;
+    color: #e4bfbf;
 }
 
 /* Footer */
