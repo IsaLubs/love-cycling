@@ -133,7 +133,7 @@ main {
     width: 60%;
     height: 60%;
     background-color: #e4bfbf;
-    color: #e4bfbf;
+
 }
 
 .hero-gallery {
@@ -266,8 +266,8 @@ main {
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: #752b90;
-    color: #e4bfbf;
+    background-color: #7e63ad;
+    color: #fafafa;
 }
 
 /* Footer */
